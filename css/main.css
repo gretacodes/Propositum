@@ -1,0 +1,209 @@
+html,
+body {
+  height: 95%;
+  background: white;
+} /* Important to make sure your divs have room to grow in the document */
+
+#dividedbox {
+  position: relative;
+  width: 100%;
+  height: 95%;
+} /* for div growth */
+.quarter,
+.quarter1,
+.main-container {
+  position: absolute;
+  width: 50%;
+  height: 50%; /* gives quarters their size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#split {
+  top: 0;
+  left: 50%;
+}
+
+/* #container1 {
+  border-top-style: groove;
+  border-left-style: groove;
+  border-right-style: groove;
+} */
+#output {
+  color: white;
+  margin-top: 5.4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 25px;
+  background-color: black;
+
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+  #output {
+    font-size: 15px;
+  }
+}
+
+.to-dos {
+  font-family: "Crushed", cursive;
+  font-size: 18px;
+}
+#output2 {
+  color: white;
+  margin-bottom: 1rem;
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 25px;
+  background-color: black;
+  /* padding-left: 10rem;
+  padding-right: 10rem; */
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputField {
+  /* padding-left: 5rem;
+  padding-right: 7.2rem; */
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  font-family: "Just Me Again Down Here", cursive;
+  text-align: center;
+}
+
+p {
+  padding: 0.9rem;
+  border-style: groove;
+  background: url(../images/image.jpg);
+  color: white;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 2rem;
+  font-family: "Crushed", cursive;
+  font-size: 18px;
+
+  color: black;
+  padding: 0.3rem;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: white;
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 25px;
+  background-color: black;
+  padding: 0.3rem;
+  opacity: 0.8;
+}
+
+#note-text {
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 15px;
+}
+
+.container11 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.container12 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.container13 {
+  /* display: none; */
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+textarea {
+  box-shadow: 5px 5px 12px 0px black;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  width: 8rem;
+  height: 8rem;
+}
+
+#check-icon {
+  position: absolute;
+  right: 17%;
+  top: 4%;
+}
+#x-icon {
+  position: absolute;
+  right: 3%;
+  top: 4%;
+}
+
+#btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 3.5rem;
+
+  font-family: "Crushed", cursive;
+  font-weight: bolder;
+}
+
+#addToDo,
+#buttton {
+  font-family: "Crushed", cursive;
+  font-weight: bolder;
+}
+
+#buttton {
+  font-family: "Crushed", cursive;
+  font-weight: bolder;
+}
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#todolist {
+  top: 0;
+  left: 0;
+  background: white;
+}
+.quarter1 {
+  top: 50%;
+  width: 100%;
+
+  background: url(../images/treees.png);
+}
+
+#title {
+  font-family: "Mrs Saint Delafield", cursive;
+  color: black;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.1rem;
+}
